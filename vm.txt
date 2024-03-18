@@ -1,0 +1,13 @@
+debian:
+VM navn: JEGSKALDREPEMEGSELV
+
+hostname: makina
+domain name: gamingonline.com
+
+root passord: g4S0l1ne
+
+user account: rai
+username: rai
+user passord: 0st4FR
+
+mariadb: root, root
