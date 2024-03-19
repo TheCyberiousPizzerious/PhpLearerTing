@@ -32,7 +32,7 @@ if (isset($_POST['username']) && isset($_POST['password'])) {
 
     $sql = "SELECT * FROM user WHERE username='$username' AND password='$password'";
 
-    $result = mysqli_query($conn, $sql);
+    $result = mysqli_query($connection, $sql);
 
     if (mysqli_num_rows($result) === 1) {
         $row = mysqli_fetch_assoc($result);
@@ -40,7 +40,7 @@ if (isset($_POST['username']) && isset($_POST['password'])) {
             echo "Innlogget";
             $_SESSION['username'] = $row['username'];
             $_SESSION['id'] = $row['id'];
-            header("Location: game.php");
+            header("Location: menu.php");
             exit();
         } else {
             header("Location: index.php?error=Ugyldig username eller password!");
