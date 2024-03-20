@@ -4,7 +4,7 @@ VM navn: JEGSKALDREPEMEGSELV
 hostname: makina
 domain name: gamingonline.com
 
-root passord: g4S0l1ne
+root passord: g4s0l1ne
 
 user account: rai
 username: rai
