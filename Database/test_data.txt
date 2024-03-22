@@ -1,0 +1,13 @@
+INSERT INTO user (name, password, email) VALUES
+('Alex Smith', 'Xj2h1S', 'alex.smith@example.com'),
+('Jamie Doe', 'G4s9vK', 'jamie.doe@example.com'),
+('Chris Johnson', 'Qm3p8R', 'chris.johnson@example.com'),
+('Pat Taylor', 'Hn7d2U', 'pat.taylor@example.com'),
+('Sam Brown', 'Yc5t2H', 'sam.brown@example.com');
+
+INSERT INTO tickets (problem, solution, status, user_id) VALUES
+('Unable to log in', 'Reset password', 'Resolved', 1),
+('Error message on screen', 'Reboot system', 'In Progress', 2),
+('Cannot print', 'Reinstall printer driver', 'Resolved', 3),
+('Lost connection to server', 'Check network cables', 'Open', 4),
+('Email not syncing', 'Update email settings', 'Resolved', 5);

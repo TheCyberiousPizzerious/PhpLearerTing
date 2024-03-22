@@ -1,0 +1,5 @@
+https://github.com/TheCyberiousPizzerious/PhpLearerTing/
+
+main - her ligger dokumentasjonen og slikt
+
+master - her ligger det meste av kode
